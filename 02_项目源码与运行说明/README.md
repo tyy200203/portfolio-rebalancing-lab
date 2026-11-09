@@ -15,7 +15,7 @@ npm ci
 npm start
 ```
 
-浏览器访问 **http://127.0.0.1:3000**。第一次启动自动读取 `data/portfolio.json` 并创建 `storage/plans.sqlite`，不需要额外初始化。`npm ci` 安装浏览器测试开发依赖；如仅启动且无法联网，可直接 `npm start`。停止服务使用 Ctrl+C。
+浏览器访问 [http://127.0.0.1:3000](http://127.0.0.1:3000/)。第一次启动自动读取 `data/portfolio.json` 并创建 `storage/plans.sqlite`，不需要额外初始化。`npm ci` 安装浏览器测试开发依赖；如仅启动且无法联网，可直接 `npm start`。停止服务使用 Ctrl+C。
 
 Windows PowerShell 若提示“无法加载 npm.ps1，因为在此系统上禁止运行脚本”，请改用 `npm.cmd ci`、`npm.cmd start`（测试同理使用 `npm.cmd test`），无需修改系统执行策略。启动后保持终端打开；服务停止或尚未重新启动时，浏览器可能显示 `ERR_CONNECTION_REFUSED`。重新运行启动命令，确认打印监听地址后再刷新页面。这两项均在候选人手动操作中实际遇到，并按上述方式恢复。
 

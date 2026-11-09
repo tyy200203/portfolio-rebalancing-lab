@@ -21,7 +21,7 @@ cd "02_项目源码与运行说明"
 npm start
 ```
 
-浏览器访问 **http://127.0.0.1:3000**。无第三方运行依赖；首次启动自动创建本地 SQLite 文件，无需额外安装数据库。Windows PowerShell 若拦截 npm.ps1，使用 `npm.cmd start`。运行期间保持终端打开。
+浏览器访问 [http://127.0.0.1:3000](http://127.0.0.1:3000/)。无第三方运行依赖；首次启动自动创建本地 SQLite 文件，无需额外安装数据库。Windows PowerShell 若拦截 npm.ps1，使用 `npm.cmd start`。运行期间保持终端打开。
 
 后端使用 Node.js 内置 HTTP、SQLite 和 BigInt 整数分计算；前端使用原生 HTML/CSS/JavaScript。金额、阈值与操作约束均由后端计算。
 
