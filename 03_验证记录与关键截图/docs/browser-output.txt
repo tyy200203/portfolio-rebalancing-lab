@@ -1,0 +1,18 @@
+
+> portfolio-lab@1.0.0 test:ui
+> playwright test
+
+[WebServer] (node:30652) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:30652) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+
+Running 4 tests using 1 worker
+
+(node:19484) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\ui.spec.js:2:1 › 完整页面流程：初始、边界、连续、错误保留、保存、刷新重开 (2.8s)
+  ok 2 tests\ui.spec.js:43:1 › API 500 和网络失败均保留有效操作、金额、效果卡及未保存状态 (865ms)
+  ok 3 tests\ui.spec.js:65:1 › 方案列表失败后只重试列表，保留已完成的模拟草稿 (886ms)
+  ok 4 tests\ui.spec.js:92:1 › 保存成功而列表刷新失败：保留成功反馈，只重试GET且不重复保存 (1.1s)
+
+  4 passed (8.7s)
